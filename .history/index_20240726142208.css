@@ -1,4 +1,6 @@
 
+}*{
+    background-color: #000000;
 body {
     z-index: -1;
         font-family: Arial, sans-serif;
@@ -591,7 +593,7 @@ background-color: rgba(9, 3, 3, 0.76);
 
 .projects-section {
     padding: 40px 20px;
-    background: black;
+   background: linear-gradient(to bottom right, yellow, black, black, #000000 60%, #000000 39%, black, yellow);
 }
 
 .projects-container {
@@ -749,7 +751,7 @@ background-color: rgba(9, 3, 3, 0.76);
 /*      -------------------------        EDUCATION----------------------- */
 .education-section {
     padding: 40px 20px;
-    background-color: black;
+ background-color: black;
 }
 
 .education-container {
@@ -762,6 +764,7 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 .education-section h2 {
     text-align: center;
+    color: #ffcc00; /* Golden color for headings */
     margin-bottom: 20px;
     font-size: 2rem; /* Larger font size for emphasis */
     position: relative; /* Required for absolute positioning of pseudo-elements */
@@ -827,12 +830,23 @@ background-color: rgba(9, 3, 3, 0.76);
     font-weight: bold;
 }
 
+/* For even items, center the icon on the right */
+
+.education-item:nth-child(odd) .education-icon {
+    left: -30px;
+}
+
+.education-item:nth-child(even) .education-icon {
+    right: -30px;
+}
+
 .education-content {
     margin-left: 80px; /* Space for the icon */
 }
 
 .education-content h3 {
     margin-top: 0;
+    color: #ffcc00; /* Golden color for institution names */
     font-size: 1.5rem; /* Slightly larger font size for emphasis */
 }
 
@@ -879,6 +893,7 @@ background-color: rgba(9, 3, 3, 0.76);
     align-items: center;
     height: 100%;
     padding: 40px 20px;
+    background: linear-gradient(to bottom right, yellow, black, black, #000000 60%, #000000 39%, black, yellow); /* Subtle yellow in top left and bottom right */
     background-size: cover;
 }
 
@@ -891,7 +906,6 @@ background-color: rgba(9, 3, 3, 0.76);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for the contact container */
     width: 95%;
     max-width: 1000px;
-    background: #000;
 }
 
 .contact-info, .contact-form {

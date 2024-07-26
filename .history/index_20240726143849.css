@@ -827,6 +827,16 @@ background-color: rgba(9, 3, 3, 0.76);
     font-weight: bold;
 }
 
+/* For even items, center the icon on the right */
+
+.education-item:nth-child(odd) .education-icon {
+    left: -30px;
+}
+
+.education-item:nth-child(even) .education-icon {
+    right: -30px;
+}
+
 .education-content {
     margin-left: 80px; /* Space for the icon */
 }

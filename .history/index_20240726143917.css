@@ -827,6 +827,10 @@ background-color: rgba(9, 3, 3, 0.76);
     font-weight: bold;
 }
 
+/* For even items, center the icon on the right */
+
+
+
 .education-content {
     margin-left: 80px; /* Space for the icon */
 }
