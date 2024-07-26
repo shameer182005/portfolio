@@ -1034,7 +1034,7 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 .contact-form {
-    background-color: #706d6d48;
+    background-color: #706d6d48; /* Dark grey background for the contact form */
 }
 
 .contact-form form {

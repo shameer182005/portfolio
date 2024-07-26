@@ -1014,27 +1014,27 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 .social-icon.gmail::before {
-    background-image: url('path/to/gmail-logo.png'); 
+    background-image: url('path/to/gmail-logo.png'); /* Replace with Gmail logo */
 }
 
 .social-icon.instagram::before {
-    background-image: url('path/to/instagram-logo.png'); 
+    background-image: url('path/to/instagram-logo.png'); /* Replace with Instagram logo */
 }
 
 .social-icon.facebook::before {
-    background-image: url('path/to/facebook-logo.png'); 
+    background-image: url('path/to/facebook-logo.png'); /* Replace with Facebook logo */
 }
 
 .social-icon.telegram::before {
-    background-image: url('path/to/telegram-logo.png'); 
+    background-image: url('path/to/telegram-logo.png'); /* Replace with Telegram logo */
 }
 
 .social-icon.whatsapp::before {
-    background-image: url('path/to/whatsapp-logo.png'); 
+    background-image: url('path/to/whatsapp-logo.png'); /* Replace with WhatsApp logo */
 }
 
 .contact-form {
-    background-color: #706d6d48;
+    background-color: #706d6d48; /* Dark grey background for the contact form */
 }
 
 .contact-form form {

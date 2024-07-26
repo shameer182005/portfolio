@@ -929,17 +929,17 @@ background-color: rgba(9, 3, 3, 0.76);
 .info-item div {
     display: flex;
     align-items: center;
-    margin-right: 10px; 
+    margin-right: 10px; /* Space between icon and text */
 }
 
 .info-item p {
-    margin: 0; 
+    margin: 0; /* Remove margin for better alignment */
 }
 
 .info-item .logo-placeholder {
     width: 30px;
     height: 30px;
-    background-color: #555; 
+    background-color: #555; /* Placeholder color */
     border-radius: 5px;
 }
 
@@ -949,7 +949,7 @@ background-color: rgba(9, 3, 3, 0.76);
 
 .social-media h3 {
     margin-bottom: 10px;
-    color: #ffcc00; 
+    color: #ffcc00; /* Golden color for headings */
 }
 
 .social-icons {
@@ -960,7 +960,7 @@ background-color: rgba(9, 3, 3, 0.76);
 .social-icon {
     width: 40px;
     height: 40px;
-    background-color: #555; 
+    background-color: #555; /* Placeholder color */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -969,31 +969,31 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 .social-icon.linkedin {
-    background-color: #0077b5; 
+    background-color: #0077b5; /* LinkedIn color */
 }
 
 .social-icon.github {
-    background-color: #333; 
+    background-color: #333; /* GitHub color */
 }
 
 .social-icon.gmail {
-    background-color: #d14836; 
+    background-color: #d14836; /* Gmail color */
 }
 
 .social-icon.instagram {
-    background-color: #e4405f; 
+    background-color: #e4405f; /* Instagram color */
 }
 
 .social-icon.facebook {
-    background-color: #1877f2; 
+    background-color: #1877f2; /* Facebook color */
 }
 
 .social-icon.telegram {
-    background-color: #0088cc; 
+    background-color: #0088cc; /* Telegram color */
 }
 
 .social-icon.whatsapp {
-    background-color: #25D366; 
+    background-color: #25D366; /* WhatsApp color */
 }
 
 .social-icon::before {
@@ -1006,35 +1006,35 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 .social-icon.linkedin::before {
-    background-image: url('path/to/linkedin-logo.png'); 
+    background-image: url('path/to/linkedin-logo.png'); /* Replace with LinkedIn logo */
 }
 
 .social-icon.github::before {
-    background-image: url('path/to/github-logo.png'); 
+    background-image: url('path/to/github-logo.png'); /* Replace with GitHub logo */
 }
 
 .social-icon.gmail::before {
-    background-image: url('path/to/gmail-logo.png'); 
+    background-image: url('path/to/gmail-logo.png'); /* Replace with Gmail logo */
 }
 
 .social-icon.instagram::before {
-    background-image: url('path/to/instagram-logo.png'); 
+    background-image: url('path/to/instagram-logo.png'); /* Replace with Instagram logo */
 }
 
 .social-icon.facebook::before {
-    background-image: url('path/to/facebook-logo.png'); 
+    background-image: url('path/to/facebook-logo.png'); /* Replace with Facebook logo */
 }
 
 .social-icon.telegram::before {
-    background-image: url('path/to/telegram-logo.png'); 
+    background-image: url('path/to/telegram-logo.png'); /* Replace with Telegram logo */
 }
 
 .social-icon.whatsapp::before {
-    background-image: url('path/to/whatsapp-logo.png'); 
+    background-image: url('path/to/whatsapp-logo.png'); /* Replace with WhatsApp logo */
 }
 
 .contact-form {
-    background-color: #706d6d48;
+    background-color: #706d6d48; /* Dark grey background for the contact form */
 }
 
 .contact-form form {

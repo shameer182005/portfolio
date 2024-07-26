@@ -540,17 +540,17 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 .skill-card {
-    flex: 1 1 calc(25% - 20px); 
+    flex: 1 1 calc(25% - 20px); /* Four cards per row with gaps */
     background-color: #89878780;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    box-sizing: border-box; 
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 .skill-card img {
-    max-width: 100px;
+    max-width: 100px; /* Adjust size of skill logos */
     margin-bottom: 10px;
 }
 
@@ -560,7 +560,7 @@ background-color: rgba(9, 3, 3, 0.76);
 
 .skills-progress h2 {
     margin-bottom: 20px;
-    color: #ffcc00; 
+    color: #ffcc00; /* Golden color for headings */
     text-align: center; 
 }
 
@@ -574,7 +574,7 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 .progress {
-    background-color: orangered; 
+    background-color: orangered; /* Yellow color for progress */
     height: 100%;
     color: #fff;
     text-align: center;
@@ -601,106 +601,106 @@ background-color: rgba(9, 3, 3, 0.76);
 
 .project-item {
     display: flex;
-    flex-direction: row; 
-    margin: 40px auto; 
+    flex-direction: row; /* Align items side by side */
+    margin: 40px auto; /* Increased margin to add space between project items */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    align-items: center;
-    justify-content: center; 
-    width: 90%; 
-    max-width: 1000px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the project item */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    width: 90%; /* Increased width of the card */
+    max-width: 1000px; /* Increased maximum width */
 }
 
 @media (max-width: 768px) {
     .project-item {
-        flex-direction: column; 
-        margin: 30px auto; 
-        width: 90%; 
+        flex-direction: column; /* Stack image and description vertically */
+        margin: 30px auto; /* Adjust margin for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
     }
 }
 
 .project-image {
     flex: 1;
-    height: 300px; 
+    height: 300px; /* Adjust the height as needed */
     background-size: cover;
     background-position: center;
-    border-radius: 8px 0 0 8px; 
+    border-radius: 8px 0 0 8px; /* Rounded corners on the left */
 }
 
 .project-description {
     flex: 1;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 0 8px 8px 0; 
-    box-shadow: 0 4px 18px rgba(255, 204, 0, 0.7); 
-    position: relative; 
+    background-color: #fff; /* White background for description */
+    border-radius: 0 8px 8px 0; /* Rounded corners on the right */
+    box-shadow: 0 4px 18px rgba(255, 204, 0, 0.7); /* Yellow box shadow */
+    position: relative; /* Position relative for absolute positioning of the button */
     margin-left: -10%;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    text-align: center; /* Center text within the container */
 }
 
 .view-more {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #ffcc00; 
-    color: #fff; 
+    background-color: #ffcc00; /* Yellow background for the button */
+    color: #fff; /* White text color */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for button */
 }
 
 .view-more:hover {
-    background-color: #e6b800; 
+    background-color: #e6b800; /* Slightly darker yellow on hover */
 }
 
 .project-description h3 {
     margin-top: 0;
-    color: #ffcc00; 
-    text-align: center; 
+    color: #ffcc00; /* Golden color for headings */
+    text-align: center; /* Center the heading text */
 }
 
 .project-description p {
-    color: #333; 
-    text-align: center; 
+    color: #333; /* Dark text color for description */
+    text-align: center; /* Center the paragraph text */
 }
 
-
+/* Responsive styling */
 @media (max-width: 768px) {
     .project-item {
-        flex-direction: column; 
-        margin: 20px;
-        width: 90%; 
+        flex-direction: column; /* Stack image and description vertically */
+        margin: 20px; /* Adjust margin for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
     }
 
     .project-image {
-        height: 200px; 
-        width: 100%; 
-        border-radius: 8px 8px 0 0; 
+        height: 200px; /* Adjust height for smaller screens */
+        width: 100%; /* Make image full width in column layout */
+        border-radius: 8px 8px 0 0; /* Rounded corners on top */
     }
 
     .project-description {
-        width: 100%; 
-        border-radius: 0 0 8px 8px; 
+        width: 100%; /* Make description full width in column layout */
+        border-radius: 0 0 8px 8px; /* Rounded corners on bottom */
     }
 }
 
 
 .project-description p {
-    color: #333; 
-    text-align: center; 
+    color: #333; /* Dark text color for description */
+    text-align: center; /* Center the paragraph text */
 }
 .projects-section h2 {
-    text-align: center; 
-    color: #ffcc00;
-    margin-bottom: 40px; 
-    position: relative; 
-    font-size: 2rem; 
+    text-align: center; /* Center the heading text */
+    color: #ffcc00; /* Golden color for the heading */
+    margin-bottom: 40px; /* Space below the heading */
+    position: relative; /* Position relative for pseudo-elements */
+    font-size: 2rem; /* Larger font size for emphasis */
 }
 
 .projects-section h2::before, 
@@ -709,7 +709,7 @@ background-color: rgba(9, 3, 3, 0.76);
     position: absolute;
     width: 40%;
     height: 2px;
-    background-color: #fff; 
+    background-color: #fff; /* White color for lines */
     top: 50%;
     transform: translateY(-50%);
 }
@@ -723,23 +723,23 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 
-
+/* Responsive styling */
 @media (max-width: 768px) {
     .project-item {
-        flex-direction: column; 
-        margin: 20px;
-        width: 90%; 
+        flex-direction: column; /* Stack image and description vertically */
+        margin: 20px; /* Adjust margin for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
     }
 
     .project-image {
-        height: 200px; 
-        width: 100%;
-        border-radius: 8px 8px 0 0; 
+        height: 200px; /* Adjust height for smaller screens */
+        width: 100%; /* Make image full width in column layout */
+        border-radius: 8px 8px 0 0; /* Rounded corners on top */
     }
 
     .project-description {
-        width: 100%; 
-        border-radius: 0 0 8px 8px; 
+        width: 100%; /* Make description full width in column layout */
+        border-radius: 0 0 8px 8px; /* Rounded corners on bottom */
     }
 }
 
@@ -756,15 +756,15 @@ background-color: rgba(9, 3, 3, 0.76);
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #bdb8b827;
+    background-color: #bdb8b827; /* White background for container */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
 }
 .education-section h2 {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 2rem;
-    position: relative; 
+    font-size: 2rem; /* Larger font size for emphasis */
+    position: relative; /* Required for absolute positioning of pseudo-elements */
 }
 
 .education-section h2::before,
@@ -774,16 +774,16 @@ background-color: rgba(9, 3, 3, 0.76);
     top: 50%;
     width: 40%;
     height: 1px;
-    background-color: #fff; 
+    background-color: #fff; /* White color for the lines */
     transform: translateY(-50%);
 }
 
 .education-section h2::before {
-    left: 0; 
+    left: 0; /* Position line before the heading */
 }
 
 .education-section h2::after {
-    right: 0; 
+    right: 0; /* Position line after the heading */
 }
 
 
@@ -796,44 +796,44 @@ background-color: rgba(9, 3, 3, 0.76);
     position: relative;
     padding: 20px;
     margin-bottom: 30px;
-    background-color: #222; 
+    background-color: #222; /* Dark background for education items */
     color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for items */
 }
 
 .education-item:nth-child(odd) {
-    margin-left: 40px; 
+    margin-left: 40px; /* Offset odd items to create a staggered effect */
 }
 
 .education-item:nth-child(even) {
-    margin-right: 40px; 
+    margin-right: 40px; /* Offset even items to create a staggered effect */
 }
 
 .education-icon {
-    width: 80px; 
-    height: 80px; 
+    width: 80px; /* Increase the width of the icon */
+    height: 80px; /* Increase the height of the icon */
     border-radius: 50%;
-    background-color: #ffcc00; 
+    background-color: #ffcc00; /* Golden color for icons */
     position: absolute;
-    left: -40px; 
-    top: 50%;
-    transform: translateY(-50%); 
+    left: -40px; /* Center the icon to the left */
+    top: 50%; /* Center the icon vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #222; 
-    font-size: 2rem; 
+    color: #222; /* Dark color for icon text */
+    font-size: 2rem; /* Increase the font size for better visibility */
     font-weight: bold;
 }
 
 .education-content {
-    margin-left: 80px; 
+    margin-left: 80px; /* Space for the icon */
 }
 
 .education-content h3 {
     margin-top: 0;
-    font-size: 1.5rem; 
+    font-size: 1.5rem; /* Slightly larger font size for emphasis */
 }
 
 .education-content p {
@@ -856,7 +856,7 @@ background-color: rgba(9, 3, 3, 0.76);
     }
 
     .education-content {
-        margin-left: 70px; 
+        margin-left: 70px; /* Adjust for smaller screens */
     }
 }
 
@@ -888,7 +888,7 @@ background-color: rgba(9, 3, 3, 0.76);
     align-items: center;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for the contact container */
     width: 95%;
     max-width: 1000px;
     background: #000;
@@ -899,47 +899,48 @@ background-color: rgba(9, 3, 3, 0.76);
     margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
-    flex: 1; 
+    flex: 1; /* Ensure both divs take up equal space */
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for content divs */
+}
 
 .contact-info {
-    background-color: #000; 
+    background-color: #000; /* Set background color to black for contact info */
 }
 
 .contact-info h2, .contact-form h2 {
     margin-bottom: 20px;
-    color: #ffcc00; 
-    border-bottom: 2px solid white;
-    padding-bottom: 10px; 
+    color: #ffcc00; /* Golden color for headings */
+    border-bottom: 2px solid white; /* White underline */
+    padding-bottom: 10px; /* Space between text and underline */
 }
 
 .info-item {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    color: white; 
-    width: 100%; 
-    padding: 10px 0; 
-    justify-content: flex-start;
+    color: white; /* Set text color to white */
+    width: 100%; /* Ensure the item takes full width */
+    padding: 10px 0; /* Add vertical padding */
+    justify-content: flex-start; /* Align items to the start */
 }
 
 .info-item div {
     display: flex;
     align-items: center;
-    margin-right: 10px; 
+    margin-right: 10px; /* Space between icon and text */
 }
 
 .info-item p {
-    margin: 0; 
+    margin: 0; /* Remove margin for better alignment */
 }
 
 .info-item .logo-placeholder {
     width: 30px;
     height: 30px;
-    background-color: #555; 
+    background-color: #555; /* Placeholder color */
     border-radius: 5px;
 }
 
@@ -949,7 +950,7 @@ background-color: rgba(9, 3, 3, 0.76);
 
 .social-media h3 {
     margin-bottom: 10px;
-    color: #ffcc00; 
+    color: #ffcc00; /* Golden color for headings */
 }
 
 .social-icons {
@@ -960,7 +961,7 @@ background-color: rgba(9, 3, 3, 0.76);
 .social-icon {
     width: 40px;
     height: 40px;
-    background-color: #555; 
+    background-color: #555; /* Placeholder color */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -969,31 +970,31 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 .social-icon.linkedin {
-    background-color: #0077b5; 
+    background-color: #0077b5; /* LinkedIn color */
 }
 
 .social-icon.github {
-    background-color: #333; 
+    background-color: #333; /* GitHub color */
 }
 
 .social-icon.gmail {
-    background-color: #d14836; 
+    background-color: #d14836; /* Gmail color */
 }
 
 .social-icon.instagram {
-    background-color: #e4405f; 
+    background-color: #e4405f; /* Instagram color */
 }
 
 .social-icon.facebook {
-    background-color: #1877f2; 
+    background-color: #1877f2; /* Facebook color */
 }
 
 .social-icon.telegram {
-    background-color: #0088cc; 
+    background-color: #0088cc; /* Telegram color */
 }
 
 .social-icon.whatsapp {
-    background-color: #25D366; 
+    background-color: #25D366; /* WhatsApp color */
 }
 
 .social-icon::before {
@@ -1006,35 +1007,35 @@ background-color: rgba(9, 3, 3, 0.76);
 }
 
 .social-icon.linkedin::before {
-    background-image: url('path/to/linkedin-logo.png'); 
+    background-image: url('path/to/linkedin-logo.png'); /* Replace with LinkedIn logo */
 }
 
 .social-icon.github::before {
-    background-image: url('path/to/github-logo.png'); 
+    background-image: url('path/to/github-logo.png'); /* Replace with GitHub logo */
 }
 
 .social-icon.gmail::before {
-    background-image: url('path/to/gmail-logo.png'); 
+    background-image: url('path/to/gmail-logo.png'); /* Replace with Gmail logo */
 }
 
 .social-icon.instagram::before {
-    background-image: url('path/to/instagram-logo.png'); 
+    background-image: url('path/to/instagram-logo.png'); /* Replace with Instagram logo */
 }
 
 .social-icon.facebook::before {
-    background-image: url('path/to/facebook-logo.png'); 
+    background-image: url('path/to/facebook-logo.png'); /* Replace with Facebook logo */
 }
 
 .social-icon.telegram::before {
-    background-image: url('path/to/telegram-logo.png'); 
+    background-image: url('path/to/telegram-logo.png'); /* Replace with Telegram logo */
 }
 
 .social-icon.whatsapp::before {
-    background-image: url('path/to/whatsapp-logo.png'); 
+    background-image: url('path/to/whatsapp-logo.png'); /* Replace with WhatsApp logo */
 }
 
 .contact-form {
-    background-color: #706d6d48;
+    background-color: #706d6d48; /* Dark grey background for the contact form */
 }
 
 .contact-form form {
