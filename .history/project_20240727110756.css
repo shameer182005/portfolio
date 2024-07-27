@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(47, 47, 196);
+    opacity: 0.9;
+    border-radius: 20px;
+}
+.box-1 p{
+    color: white;
+    padding-left: 55px;
+}
+.inner-circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 2px solid orange;
+}
+.box-2{
+    width: 200px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    
+}
+.second-container{
+    padding-left: 20px;
+}
+.second-container-box{
+    width: 160px;
+    
+}
+.reaction{
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0.1);
+    color: rgb(220, 14, 14);
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.memory{
+    height: 20px;
+    background-color: rgba(246, 252, 76, 0.1);
+    color: rgb(218, 218, 64);
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 19px;
+}
+.verbal{
+    height: 20px;
+    background-color: rgba(16, 255, 235, 0.1);
+    color: green;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 19px;
+}
+.visual{
+    height: 20px;
+    background-color: rgba(171, 163, 255, 0.1);
+    color: rgb(37, 162, 37)
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.continue{
+    height: 30px;
+    width: 150px;
+}

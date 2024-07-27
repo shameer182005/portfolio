@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(47, 47, 196);
+    opacity: 0.9;
+    border-radius: 20px;
+}
+.box-1 p{
+    color: white;
+    padding-left: 55px;
+}
+.inner-circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 2px solid orange;
+}
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.second-container{
+    padding-left: 20px;
+}
+.reaction{
+    width: 160px;
+    background-color: red;
+}

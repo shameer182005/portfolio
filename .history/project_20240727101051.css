@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(47, 47, 196);
+    opacity: 0.2;
+}
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}

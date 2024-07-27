@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+}
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(47, 47, 196);
+    opacity: 0.9;
+    border-radius: 20px;
+}
+.box-1 p{
+    color: white;
+    justify-content: ;
+}
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 20px;
+}
