@@ -33,7 +33,6 @@ body {
     font-size: 1.5em;
     margin-bottom: 20px;
     color: #b4b1b1;
-    font-weight: 400;
 }
 
 .circle-container {
@@ -133,6 +132,7 @@ body {
         flex-direction: column;
         width: 100%;
     }
+
     .result-section {
         padding: 10px;
     }
@@ -152,4 +152,5 @@ body {
     .additional-text p {
         font-size: 0.8em;
     }
+
 }

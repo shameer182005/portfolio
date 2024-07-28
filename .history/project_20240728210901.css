@@ -33,7 +33,6 @@ body {
     font-size: 1.5em;
     margin-bottom: 20px;
     color: #b4b1b1;
-    font-weight: 400;
 }
 
 .circle-container {
@@ -102,27 +101,33 @@ body {
 /* Media Queries */
 @media (max-width: 768px)  {
     .result-summary {
-    grid-template-columns: repeat(1,1fr);
-    width: 100%;
-    margin-top: auto;
+       grid-template-columns: repeat(1,1fr);
+        width: 100%;
+      margin-top: auto;
     }
+
     .result-section {
         padding: 10px;
         
     }
+
     .result-text {
         font-size: 1.2em;
     }
+
     .circle {
         width: 150px;
         height: 150px;
     }
+
     .mark {
         font-size: 2em;
     }
+
     .additional-text h3 {
         font-size: 1em;
     }
+
     .additional-text p {
         font-size: 0.8em;
     }
@@ -133,23 +138,30 @@ body {
         flex-direction: column;
         width: 100%;
     }
+
     .result-section {
         padding: 10px;
     }
+
     .result-text {
         font-size: 1.2em;
     }
+
     .circle {
         width: 150px;
         height: 150px;
     }
+
     .mark {
         font-size: 2em;
     }
+
     .additional-text h3 {
         font-size: 1em;
     }
+
     .additional-text p {
         font-size: 0.8em;
     }
+
 }
